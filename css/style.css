@@ -1,0 +1,41 @@
+/** @format */
+body{
+  background-color: #0D0D0D;
+  color: #f9f6f6;
+}
+.logo {
+  width: 50px;
+}
+.side-nav{
+     top: 0;
+     z-index: 999;
+}
+.side-nav-links ul li {
+  cursor: pointer;
+}
+.meal,.category,.ing-item,.area {
+  cursor: pointer;
+}
+.meal-layer,.cat-layer,.search-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: 0.5s;
+}
+
+.meal:hover .meal-layer,.category:hover .cat-layer {
+  top: 0;
+}
+ul .ingredient {
+  background-color: #cff4fc;
+  color: rgb(5, 81, 96);
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+ul .tag {
+  background-color: #f8d7da ; 
+  color: rgb(132, 32, 41);
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
